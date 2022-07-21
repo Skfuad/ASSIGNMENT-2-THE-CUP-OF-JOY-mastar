@@ -1,0 +1,229 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+</style>
+
+/* common style */
+body{
+    background-color:  #FFFFFF
+    font-family: 'Poppins', sans-serif;
+    
+}
+.top-poster container{
+    background-color: black;
+    width: 70%;
+}
+.poster-image{
+    background-color: black;
+    
+}
+.fa-angle-right{
+    color: #FFFFFF;
+}
+.button-watchlive{
+    background: #DD0000;
+    width: 187px;
+    height: 56px;
+}
+.top-image{
+    display: grid;
+    grid-template-rows: repeat(2fr);
+}
+.box1{
+    background-color:black;
+    
+    width: 400px;
+    height: 400px;
+    font-size: 70px;
+    font: 1em sans-serif;
+    color: #FFFFFF;
+    
+    
+
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    
+    background-color: black;
+
+}
+.top-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+   background-color:black;
+   width: 93%;
+   height: 25%;
+   padding: 40px;
+   border-radius: 30px;
+    
+}
+.container-1{
+    height: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 2px solid red;
+    border-radius: 10px;
+    justify-content: center;
+}
+.container-2{
+    height: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.container-3{
+    height: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.side-box{
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.side-box{
+    display: grid;
+    grid-template-rows: repeat(3,3fr);
+    align-items: center;
+    justify-content: center;
+
+}
+.match-container{
+    width: 312px;
+    height: 362px;
+    border: 2px solid grey;
+    
+}
+.transfer{
+    width: 100px;
+    height: 32px;
+    border: 2px solid black;
+    background-color: blue;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.transfer-quote{
+    width: 272px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+   
+}
+.fa-clock{
+    color: goldenrod;
+
+}
+.icon-clock{
+    width: 60px;
+    height: 26px;
+    border: ipx solid green;
+    background-color: aqua;
+
+}
+.icon-comment{
+
+    width: 53px;
+    height: 26px;
+    border:  ipx solid green;
+    background-color: aquamarine;
+}
+.fa-message{
+    color: goldenrod;
+
+}
+.end-part{
+    display: block;
+    
+}
+.end-part{
+    display: grid;
+    grid-template-columns: repeat(3,2fr,2fr);
+    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    margin: 200px,200px;
+    padding: 200px;
+}
+.footer{
+    width: 1000px;
+    height: 244px;
+    left: 0px;
+    top: 2090px;
+    background-color: #161616;
+
+}
+.fa-facebook, .fa-twitter, .fa-amazon, .fa-facebook-messenger{
+    color: gold;
+}
+.goal{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.footer-icons{
+    width: 898px;
+    height: 24px;
+    color: #B9B9B9;
+    display: block;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.flag-container{
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.flag-1{
+    width: 93.04px;
+    height: 56.18px;
+}
+.flag-2{
+    width: 93.04px;
+    height: 54.42px;
+}
+.opposition{
+    width: 22px;
+    height: 24px;
+    color: #161616;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.team-part{
+    width: 202px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.match-day{
+    width: 166px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+
+}
+.flagend-part{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    align-items: center;
+    justify-content: center;
+}
